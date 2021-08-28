@@ -28,3 +28,7 @@ Route::resource('categorias', 'CategoriaController');
 //Descrição
 Route::resource('descricao', 'DescricaoController');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

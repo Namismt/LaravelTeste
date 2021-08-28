@@ -14,7 +14,8 @@ class CategoriaController extends Controller
      */
     public function index()
     {
-        //
+        $categorias = Categoria::get();
+        return view('Categoria.index')->with('categorias',$categorias);
     }
 
     /**

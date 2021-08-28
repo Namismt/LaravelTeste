@@ -1,5 +1,5 @@
     
-    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm nav-tabs">
           <div class="container">             
                <a class="navbar-left" href="{{ url('/') }}">
                 <img src="{{asset('img/nami.jpeg')}}" alt="Backlink logo">
@@ -15,17 +15,16 @@
                     </ul>
 
                     <!-- Lado direito da navbar -->
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto nav-pills nav-fill">
                        <li class="nav-item">
                                 <a class="nav-link" href="/"> Home </a>
-
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/login">Login</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link comentario" href="#"> Deixe um Comentário! </a>
+                        <a class="nav-link active" href="#"> Contato </a>
                     </li>
 
                     </ul>

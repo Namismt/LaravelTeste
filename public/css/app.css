@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Besley);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@charset "UTF-8";
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -500,7 +501,7 @@ mark,
 }
 
 .blockquote-footer::before {
-  content: "\2014\A0";
+  content: "— ";
 }
 
 .img-fluid {
@@ -583,7 +584,6 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 @media (min-width: 576px) {
@@ -4518,12 +4518,6 @@ input[type=button].btn-block {
   padding: 0.5rem 1rem;
 }
 
-a.navbar-left img{
-  border-radius: 50%;
-  max-width: 100px;
-  height: auto;
-}
-
 .navbar .container,
 .navbar .container-fluid,
 .navbar .container-sm,
@@ -8252,7 +8246,6 @@ button.bg-dark:focus {
 .user-select-all {
   -webkit-user-select: all !important;
      -moz-user-select: all !important;
-      -ms-user-select: all !important;
           user-select: all !important;
 }
 
@@ -10949,32 +10942,4 @@ a.text-dark:focus {
   }
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  background: #5b61a1;
-  background: -webkit-linear-gradient(left, #1088a1 33%, #5b61a1 100%);
-}
 
-.nav-link{
-  font-size: 1.15rem;
-}
-
-.comentario{
-  color: #3333ff !important;
-}
-.comentario:hover{
-  color: #5b61a1 !important;
-}
-
-
-.navbar.navbar-expand-md.navbar-light.bg-white.shadow-sm{
-  color: #8c94a7 !important;
-}
-
-.w-100.py-5.pl-5{
-  border-radius:25%;
-  align-content: center;
-  position: relative;
-
-}

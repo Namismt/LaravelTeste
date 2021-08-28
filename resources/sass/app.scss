@@ -1,16 +1,12 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Besley');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-@import 'style';
 
 body{
-    width: 100vw;
-    height: 100vh;
-    background: rgb(91, 97, 161);
-    background: -webkit-linear-gradient(left, rgba(16, 136, 161) 33%, rgba(91, 97, 161) 100%);
+    
 }

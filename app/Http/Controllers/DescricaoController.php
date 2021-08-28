@@ -24,7 +24,7 @@ class DescricaoController extends Controller
      */
     public function create()
     {
-        $categorias = Categoria::get();
+        $categorias = Categoria::with('descricao')->get();
         return view('Descricao.create')->with('categorias', $categorias);
     }
 

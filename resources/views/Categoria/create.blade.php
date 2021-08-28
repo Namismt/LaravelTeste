@@ -10,7 +10,7 @@
                         Area de Trabalho
                     </div>
                     <div>
-                   <a class="btn btn-warning" href="{{route('home')}}">Voltar</a>
+                   <a class="btn btn-dark" href="{{route('home')}}">Voltar</a>
                     </div>
                     </div>
                 <div class="card-body">
