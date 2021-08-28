@@ -17,14 +17,14 @@
                     <!-- Lado direito da navbar -->
                     <ul class="navbar-nav ml-auto nav-pills nav-fill">
                        <li class="nav-item">
-                                <a class="nav-link" href="/"> Home </a>
+                                <a class="nav-link lead" href="/"> Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/login">Login</a>
+                        <a class="nav-link lead" href="/login">Login</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="#"> Contato </a>
+                        <a class="nav-link active lead" href="#"> Contato </a>
                     </li>
 
                     </ul>

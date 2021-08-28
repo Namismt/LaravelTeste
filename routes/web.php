@@ -32,3 +32,7 @@ Route::resource('descricao', 'DescricaoController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+ //
+ Route::get('/js/components', function(){
+    return view('ExampleComponent');
+ });

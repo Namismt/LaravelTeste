@@ -10941,5 +10941,9 @@ a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-
+.navbar-left img{
+  border-radius: 60%;
+  height: auto;
+  width:90px;
+}
 
